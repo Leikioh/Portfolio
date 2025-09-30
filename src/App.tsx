@@ -82,7 +82,7 @@ const projects: Project[] = [
       "Projet d'école, réalisation d'un site de partage de recettes",
     tags: ["Next.js", "Typescript", "Prisma"],
     image: imgProjet5,
-    live: "https://project-5-final-f3facmcgz-leikiohs-projects.vercel.app/",
+    live: "https://project-5-final.vercel.app/",
     code: "https://github.com/Leikioh/project-5-final",
   },
 ];
