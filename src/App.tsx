@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import imgChezManu from '/kiosque.jpg';
 import imgInvoicer from '/Invoicer.jpg';
+import imgProjet5 from '/Projet-recipe.jpg';
 import {
   Github,
   Linkedin,
@@ -61,29 +62,28 @@ const projects: Project[] = [
     title: "Le Kiosque Chez Manu",
     description:
       "Mon premier site Web pour une Pizzeria",
-    tags: ["Html, Css, JavaScript"],
+    tags: ["Html", "Css", "JavaScript"],
     image: imgChezManu,
-    live: "https://leikioh.github.io/ChezManu/index.html",
+    live: "https://chez-manu.vercel.app/pizza.html?category=classiques",
     code: "https://github.com/Leikioh/ChezManu",
   },
   {
     title: "Invoicer",
     description:
       "App Web de création de Devis et Facturation",
-    tags: ["Next.js, Typescript, Prisma"],
+    tags: ["Next.js", "Typescript", "Prisma"],
     image: imgInvoicer,
     live: "https://invoicer-rzrw-4bel4gysa-leikiohs-projects.vercel.app/",
     code: "https://github.com/Leikioh/invoicer",
   },
   {
-    title: "E‑commerce Headless",
+    title: "Project-Recipe",
     description:
-      "Front headless (Stripe + CMS) avec recherche, filtres, et panier persistant.",
-    tags: ["Next.js", "Stripe", "CMS"],
-    image:
-      "https://images.unsplash.com/photo-1542831371-d531d36971e6?q=80&w=1200&auto=format&fit=crop",
-    live: "https://exemple.com/shop",
-    code: "https://github.com/vous/headless-shop",
+      "Projet d'école, réalisation d'un site de partage de recettes",
+    tags: ["Next.js", "Typescript", "Prisma"],
+    image: imgProjet5,
+    live: "https://project-5-final-f3facmcgz-leikiohs-projects.vercel.app/",
+    code: "https://github.com/Leikioh/project-5-final",
   },
 ];
 
